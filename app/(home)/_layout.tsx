@@ -11,19 +11,17 @@ const _layout = () => {
       initialRouteName="welcome"
       screenOptions={{
         tabBarStyle: {
-          paddingLeft: 20,
+          paddingLeft: 48,
           height: 70,
           width: 300,
           alignItems: "center",
-          justifyContent: "space-between",
-
           flexDirection: "row",
-          paddingRight: 20,
+          //   paddingRight: 20,
           marginBottom: 20,
           backgroundColor: "#7F8179",
-          opacity: 2,
           display: "flex",
           position: "absolute",
+          //   backdropFilter: "",
           zIndex: 100,
           borderRadius: 100,
         },

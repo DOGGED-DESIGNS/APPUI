@@ -13,11 +13,11 @@ import { Icons } from "@/constants";
 interface ultType extends PressableProps {
   image: ImageSourcePropType;
 }
-const Doggetabs = ({ image }: ultType) => {
+const Doggetabs = ({ image, onPress }: ultType) => {
   return (
-    <Pressable>
+    <Pressable onPress={onPress}>
       <View>
-        <Image source={image} className="h-12 w-12 " />
+        <Image source={image} className="h-8 w-8 " />
       </View>
     </Pressable>
   );

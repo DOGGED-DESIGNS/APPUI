@@ -149,6 +149,39 @@ const home = () => {
               </View>
             </View>
           </View>
+          <View className=" w-full -mt-14    gap-4  py-10 px-10 bg-[#E4E4D2]   rounded-[40px]   ">
+            <View className=" mb-3  flex-row gap-4">
+              <Image
+                source={Icons.alarmclock}
+                resizeMode="contain"
+                className=" h-5 w-5"
+              />
+              <Text className=" text-sm font-DomineBold">
+                {" "}
+                Bedtime Medicine
+              </Text>
+            </View>
+
+            <View className=" flex-row">
+              <View className=" max-w-[210px]  ">
+                <Text className=" text-black text-xl font-DomineBold ">
+                  Bactrium tablet
+                </Text>
+                <Text className=" text-sm line-clamp-2  font-DomineRegular  mt-2">
+                  The drud is very beneficial to your health this i whati
+                  sdfsfkl this is what i wanted to do andi whal af lskhslkfs
+                  sdflksjdfkls df
+                </Text>
+              </View>
+              <View className=" ml-auto">
+                <TouchableOpacity className=" bg-[#4C4F4A] rounded-full p-6    ">
+                  <Text className=" text-white text-sm  font-PoppinsMedium ">
+                    10:00 pm
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>
