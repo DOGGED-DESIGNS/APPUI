@@ -12,6 +12,9 @@ import firstaid from "@/assets/images/firstaid4x.png";
 import opencapsule from "@/assets/images/opencapsel4x.png";
 import whitetablet from "@/assets/icons/whitetablet4x.png";
 import circularbutton from "@/assets/icons/circlebutton4x.png";
+import house from "@/assets/icons/house4x.png";
+import mark from "@/assets/icons/mark4x.png";
+import setting from "@/assets/icons/settings4x.png";
 
 export const Images = {
   clock,
@@ -23,7 +26,10 @@ export const Images = {
 };
 
 export const Icons = {
+  mark,
+  setting,
   notification,
+  house,
   stats,
   circularbutton,
   filter,

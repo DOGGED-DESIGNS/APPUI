@@ -7,7 +7,7 @@ import { router } from "expo-router";
 
 const filter = () => {
   return (
-    <SafeAreaView className=" flex-1 px-4 bg-[#737770]">
+    <SafeAreaView className=" flex-1 px-4 bg-[#677263]">
       <View className="  items-center mb-3 mt-5 flex-row gap-3">
         <TouchableOpacity
           onPress={() => {
