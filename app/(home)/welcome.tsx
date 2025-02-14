@@ -12,7 +12,7 @@ import { Images, Icons } from "@/constants";
 
 const home = () => {
   return (
-    <SafeAreaView className=" flex-1 bg-[#4C4F4A] px-4">
+    <SafeAreaView className=" flex-1 bg-[#737770] px-4">
       <View className=" mt-5 flex-row   items-center ">
         <View className=" flex-row items-center gap-5">
           <Image

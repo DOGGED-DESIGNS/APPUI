@@ -46,6 +46,7 @@ const _layout = () => {
       <Tabs.Screen
         name="filter"
         options={{
+          tabBarStyle: { display: "none" },
           headerShown: false,
           tabBarButton: (props) => <Doggetabs image={Icons.stats} {...props} />,
         }}
