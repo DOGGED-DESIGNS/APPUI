@@ -20,7 +20,8 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     "Inter-Black": require("../assets/fonts/SpaceMono-Regular.ttf"),
-
+    "Domine-Bold": require("@/assets/fonts/Domine-Bold.ttf"),
+    "Domine-Regular": require("@/assets/fonts/Domine-Regular.ttf"),
     "Poppins-ThinItalic": require("../assets/fonts/Poppins-ThinItalic.ttf"),
     "Poppins-Thin": require("../assets/fonts/Poppins-Thin.ttf"),
     "Poppins-SemiBoldItalic": require("../assets/fonts/Poppins-SemiBoldItalic.ttf"),
@@ -55,6 +56,7 @@ export default function RootLayout() {
     <>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="(home)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />
