@@ -13,7 +13,7 @@ const _layout = () => {
         tabBarStyle: {
           paddingLeft: 48,
           height: 70,
-          width: 300,
+          width: 320,
           alignItems: "center",
           flexDirection: "row",
           //   paddingRight: 20,

@@ -12,7 +12,17 @@ import { Images, Icons } from "@/constants";
 
 const home = () => {
   return (
-    <SafeAreaView className=" flex-1 bg-[#737770] px-4">
+    <SafeAreaView className=" relative flex-1 bg-[#737770] px-4">
+      {/*  this is to move in the safe area zone */}
+
+      <TouchableOpacity className=" top-[92.7%] z-50  left-[85%] flex items-center justify-center rounded-full absolute bg-[#EC5626] h-[70px] w-[70px]">
+        <Image
+          source={Icons.plus}
+          className=" h-17 w-7 "
+          resizeMode="contain"
+        />
+      </TouchableOpacity>
+
       <View className=" mt-5 flex-row   items-center ">
         <View className=" flex-row items-center gap-5">
           <Image
@@ -51,7 +61,7 @@ const home = () => {
       {/* this is the deck of cards */}
 
       <ScrollView>
-        <View className=" relative">
+        <View className=" h-[1000px] relative">
           <View className="    gap-4 mt-4 py-10 px-10 bg-[#728268]   rounded-[40px]   ">
             <View className=" mb-1   flex-row gap-4">
               <Image

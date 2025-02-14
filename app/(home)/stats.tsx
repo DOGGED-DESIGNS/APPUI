@@ -61,58 +61,60 @@ const stats = () => {
 
       {/* this is the time duratio */}
       <ScrollView className=" ">
-        <View>
-          <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
-            Time Duration
-          </Text>
-          <View className=" flex-row ">
-            <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular"> 35days </Text>
+        <View className=" h-[500px] ">
+          <View>
+            <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
+              Time Duration
+            </Text>
+            <View className=" flex-row ">
+              <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular"> 35days </Text>
+              </View>
             </View>
           </View>
-        </View>
-        <View>
-          <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
-            Medicine Time
-          </Text>
-          <View className=" gap-2 flex-row ">
-            <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular"> 12:00pm </Text>
-            </View>
-            <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular"> 9:00pm </Text>
-            </View>
-          </View>
-        </View>
-        <View>
-          <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
-            Days in a week
-          </Text>
-          <View className=" gap-2 flex-row ">
-            <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular"> Mon </Text>
-            </View>
-            <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular"> Tues </Text>
-            </View>
-            <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular"> Wed </Text>
-            </View>
-            <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular"> Thur </Text>
+          <View>
+            <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
+              Medicine Time
+            </Text>
+            <View className=" gap-2 flex-row ">
+              <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular"> 12:00pm </Text>
+              </View>
+              <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular"> 9:00pm </Text>
+              </View>
             </View>
           </View>
-        </View>
-        <View>
-          <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
-            Doses
-          </Text>
-          <View className=" gap-2 flex-row ">
-            <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
-              <Text className="text-base font-DomineRegular">
-                {" "}
-                3 times a day{" "}
-              </Text>
+          <View>
+            <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
+              Days in a week
+            </Text>
+            <View className=" gap-2 flex-row ">
+              <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular"> Mon </Text>
+              </View>
+              <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular"> Tues </Text>
+              </View>
+              <View className="  mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular"> Wed </Text>
+              </View>
+              <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular"> Thur </Text>
+              </View>
+            </View>
+          </View>
+          <View>
+            <Text className=" mt-5 text-base text-zinc-900 font-PoppinsMedium ">
+              Doses
+            </Text>
+            <View className=" gap-2 flex-row ">
+              <View className=" mr-auto mt-2 bg-[#C3BFAA]  p-5 rounded-full">
+                <Text className="text-base font-DomineRegular">
+                  {" "}
+                  3 times a day{" "}
+                </Text>
+              </View>
             </View>
           </View>
         </View>

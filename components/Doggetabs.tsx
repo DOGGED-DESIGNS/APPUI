@@ -13,11 +13,17 @@ import { Icons } from "@/constants";
 interface ultType extends PressableProps {
   image: ImageSourcePropType;
 }
-const Doggetabs = ({ image, onPress }: ultType) => {
+const Doggetabs = ({ image, onPress, accessibilityState }: ultType) => {
+  const isActive = accessibilityState?.selected;
+
   return (
     <Pressable onPress={onPress}>
       <View>
-        <Image source={image} className="h-8 w-8 " />
+        <Image
+          source={image}
+          tintColor={isActive ? "#090B09" : "#535650"}
+          className="h-7 w-7 "
+        />
       </View>
     </Pressable>
   );
