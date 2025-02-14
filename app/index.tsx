@@ -6,7 +6,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const index = () => {
   return (
-    <SafeAreaView className=" items-center  flex-1 bg-[#4A5147] ">
+    <SafeAreaView className=" items-center  flex-1 bg-[#4C4F4A] ">
       <View className=" mt-10 mb-7 ">
         <Image
           resizeMode="contain"
@@ -24,15 +24,15 @@ const index = () => {
 
       <TouchableOpacity
         activeOpacity={0.6}
-        className=" mt-9 items-center gap-7 py-3 px-6 flex-row bg-[#F15A22]   rounded-full  "
+        className=" mt-14 items-center gap-4 py-1 px-6 flex-row bg-[#F15A22]   rounded-full  "
       >
         {" "}
-        <Text className=" font-PoppinsMedium text-black">
+        <Text className=" font-PoppinsRegular text-black">
           Let's get started
         </Text>
         <Image
           resizeMode="contain"
-          className=" h-[29.98] w-[42.54]"
+          className="  h-[49.98] w-[52.54]"
           source={Icons.tabletstroke}
         />
       </TouchableOpacity>
