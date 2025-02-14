@@ -1,4 +1,4 @@
-import clock from "@/assets/images/welcomeimg4x.png";
+import clock from "@/assets/images/welcomeimgupdate24x.png";
 import tablet from "@/assets/icons/tableticon4x.png";
 import tabletstroke from "@/assets/icons/tabletstroke4x.png";
 
